@@ -1,0 +1,39 @@
+.header {
+  height: 56px;
+  width: 100%;
+  background-color: var(--mantine-color-body);
+  border-bottom: 1px solid rgb(98, 93, 93);
+}
+
+.inner {
+  height: 56px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.item {
+  justify-self: end;
+}
+.link {
+  display: block;
+  line-height: 1;
+  padding: 8px 12px;
+  border-radius: 0.875rem;
+  text-decoration: none;
+  color: gray;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.link :hover {
+  background-color: gray;
+}
+
+.link[data-active] {
+  background-color: #228be6;
+  color: #fff;
+}
+.link[data-mantine-color-scheme] {
+  background-color: #228be6;
+  color: #fff;
+}

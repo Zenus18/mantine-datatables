@@ -1,12 +1,9 @@
-import { Inter } from "next/font/google";
-import { Text, Container, Button } from "@mantine/core";
-const inter = Inter({ subsets: ["latin"] });
-
+import HomeFeature from "@/features/Home";
+import Layout from "@/features/Layout/layout";
 export default function Home() {
   return (
-    <>
-      <Text>natan</Text>
-      <Button>button</Button>
-    </>
+    <Layout>
+      <HomeFeature />
+    </Layout>
   );
 }

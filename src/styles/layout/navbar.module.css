@@ -1,0 +1,32 @@
+.navbar {
+  width: 6rem;
+  height: 100vh;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #228be6;
+  position: fixed;
+}
+
+.navbarMain {
+  flex: 1;
+  margin-top: 50px;
+}
+
+.link {
+  width: 50px;
+  height: 50px;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.link:hover {
+  background-color: #118bf6;
+}
+.link[data-active] {
+  box-shadow: var(--mantine-shadow-sm);
+  background-color: #ffffff;
+  color: var(--mantine-color-blue-6);
+}
